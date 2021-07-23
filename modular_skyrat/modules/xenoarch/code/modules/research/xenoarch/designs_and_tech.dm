@@ -28,6 +28,16 @@
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_CARGO
 
+/datum/design/hammercm4
+	name = "Hammer (cm 4)"
+	desc = "A hammer that can slowly remove debris on a strange rock."
+	id = "hammercm4"
+	build_type = PROTOLATHE | AWAY_LATHE
+	materials = list(/datum/material/iron = 500, /datum/material/plastic = 500)
+	build_path = /obj/item/xenoarch/hammer/cm4
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_CARGO
+
 /datum/design/hammercm5
 	name = "Hammer (cm 5)"
 	desc = "A hammer that can slowly remove debris on a strange rock."
@@ -35,6 +45,16 @@
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 500, /datum/material/plastic = 500)
 	build_path = /obj/item/xenoarch/hammer/cm5
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_CARGO
+
+/datum/design/hammercm6
+	name = "Hammer (cm 6)"
+	desc = "A hammer that can slowly remove debris on a strange rock."
+	id = "hammercm6"
+	build_type = PROTOLATHE | AWAY_LATHE
+	materials = list(/datum/material/iron = 500, /datum/material/plastic = 500)
+	build_path = /obj/item/xenoarch/hammer/cm6
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_CARGO
 
@@ -159,7 +179,9 @@
 		"hammercm1",
 		"hammercm2",
 		"hammercm3",
+		"hammercm4",
 		"hammercm5",
+		"hammercm6",
 		"hammercm10",
 		"bas_brush",
 		"xeno_tape",
