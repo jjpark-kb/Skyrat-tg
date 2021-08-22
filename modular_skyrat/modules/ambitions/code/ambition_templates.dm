@@ -82,3 +82,8 @@
 	job_whitelist = list("Scientist")
 
 //TODO: Everything Past Cook and Scientist Ambitions
+/datum/ambition_template/abandoned
+	name = "Abandoned Agent"
+	narrative = "The Syndicate found us breaking one of their tenets and now we are paying the price. Which tenet? I don't remember, but it was severe enough to get me removed. I need to prove to them that I can still be useful, whilst still following the tenets. They were the ones who were wrong, not me."
+	objectives = list("Prove to the Syndicate that I am still worthy of their assistance.", "Do something that proves I can still follow their tenets.")
+	tips = list("We are supposed to not harm anyone.", "We are supposed to learn about the secrets on board the station.")
